@@ -1,0 +1,17 @@
+import array 
+arr = array.array('i', [1,2,3,4,5,6,7,8,9])
+#by element
+arr.remove(7)
+print(arr)
+#by index
+arr.pop(2)
+print(arr)
+del arr[4]
+print(arr)
+
+#NM
+import numpy as np
+arr1 = np.array([10,20,30,40])
+print(np.delete(arr1, 3))
+
+

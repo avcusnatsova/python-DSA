@@ -1,0 +1,17 @@
+#AM
+import array
+arr = array.array('i', [10,20,30,40,50])
+def traversal(array):
+    #for i in range(len(array)):
+    for i in array:
+        print(i)
+        #print(array[i])
+traversal(arr)
+
+#NM
+import numpy as np
+arr1 = np.array([1,2,3,4,5])
+def traverse(array):
+    for i in array:
+        print(i, end =' ')
+traverse(arr1)

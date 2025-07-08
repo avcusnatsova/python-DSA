@@ -1,0 +1,19 @@
+import array
+arr = array.array('i', [1,2,3,4,5])
+def accessing(array, index):
+        if 0<= index <len(array):
+                print(array[index])
+        else:
+                print("element not found")
+accessing(arr, 5)
+
+#NM
+import numpy as np
+arr1 = np.array([1,2,3,4,5])
+def access(array, index):
+        if 0<= index <len(array):
+                print(array[index])
+        else:
+                print("element not found")
+access(arr1, 0)
+access(arr1,2)

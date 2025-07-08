@@ -1,0 +1,15 @@
+import array
+# insertion at front
+myarr = array.array('i', [1,2,3,4,5])
+print(myarr)
+myarr.insert(0, 0)
+print(myarr)
+
+#insertion at middle
+middle = len(myarr)//2
+myarr.insert(middle, 80)
+print(myarr)
+
+#insertion at end
+myarr.insert(len(myarr), 50)
+print(myarr)

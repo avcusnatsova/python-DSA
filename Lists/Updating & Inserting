@@ -1,0 +1,23 @@
+list = [1,2,3,4,5,6,7,8,9,10]
+print(list)
+#updating
+
+'''list[2] = 35
+print(list)'''
+
+#insertion at front
+list.insert(0,78)
+print(list)
+
+#insertion at middle, for float middle use // or int() conversion
+list.insert(len(list)//2, 45)
+print(list)
+
+#append()
+list.append(100)
+print(list)
+
+#extend()
+newlist = [11,12,13,14,15]
+list.extend(newlist)
+print(list)

@@ -1,0 +1,26 @@
+''''#without saving the temperatures
+numdays = int(input("How many days's temperature?"))
+total = 0
+for i in range(1, numdays+1):
+    nextday = int(input("day" + str(i) + "'s high temperature"))
+    total += nextday
+avg = round(total/numdays,2)
+print("\n Average = "+ str(avg))'''
+
+#using lists to save the temperatures so that we can return which temperature was higher than the average
+numdays = int(input("How many days's temperature?"))
+total = 0
+temp = []
+for i in range(numdays):
+    nextday = int(input("day" + str(i) + "'s high temperature"))
+    temp.append(nextday)
+    total += temp[i]
+avg = round(total/numdays,2)
+print("\n Average = "+ str(avg))
+
+above = 0
+for i in temp:
+    if i > avg:
+        above+=1
+
+print(str(above)  + "day(s) are above average")

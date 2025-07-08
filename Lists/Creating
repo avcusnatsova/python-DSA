@@ -1,0 +1,10 @@
+nlist = [1,2,3,4,5]
+slist = ['bersi', 'violet']
+nnlist = [[2,4,6],1,3,5]
+mlist = [1, 'cusnat', [8,9]]
+elist = []
+print(nlist)
+print(slist)
+print(nnlist)
+print(mlist)
+print(elist)

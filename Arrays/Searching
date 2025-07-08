@@ -1,0 +1,20 @@
+import array
+arr = array.array('i', [1,2,3,4,5])
+def search(array, target):
+    for i in range(len(array)):
+        if array[i] == target:
+            return i
+    return -1
+print(search (arr, 3))
+print(search(arr, 8))
+
+#NM
+import numpy as np
+arr1 = np.array([10,20,30,40])
+def search(array, target):
+    for i in range(len(array)):
+        if array[i] == target:
+            return i
+    return -1
+print(search (arr1, 30))
+print(search(arr1, 8))

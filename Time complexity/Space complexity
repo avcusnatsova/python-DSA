@@ -1,0 +1,7 @@
+def recursive_sum(n):
+    if n <= 0:
+        return 0
+    return n + recursive_sum(n - 1)
+
+# Test it
+print(recursive_sum(5))  # Output: 15 (5+4+3+2+1)

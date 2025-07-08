@@ -1,0 +1,77 @@
+import array
+
+#1.create and traverse
+arr = array.array('i', [1,2,3,4,5])
+for i in arr:
+    print(i)
+
+#2.accessing through index
+def access(array,index):
+    if 0 <= index < len(arr):
+        print(arr[index])
+    else:
+        print("element not found")
+access(arr, 4)
+
+#3.append
+arr.append(6)
+print(arr)
+
+#4.insertion
+#front
+arr.insert(0,0)
+print(arr) 
+#middle
+arr.insert(len(arr)//2, 55)
+print(arr) 
+#end
+arr.insert(len(arr), 7)
+print(arr) 
+
+#5.extend
+arr1 = array.array('i', [8,9,10])
+arr.extend(arr1)
+print(arr) 
+
+#6.adding through list
+list =[11,12,13]
+arr.fromlist(list)
+print(arr) 
+
+#7.remove
+arr.remove(4)
+print(arr) 
+#pop 
+arr.pop(2)
+print(arr) 
+
+#8.remove last element through pop()
+arr.pop()
+print(arr)
+
+#9. index of value
+print(arr.index(5))
+
+#10.reverse
+arr.reverse()
+print(arr)
+
+#11. array buffer info
+print(arr.buffer_info())
+
+#12. checking no of occurences
+arr.append(11)
+print(arr.count(11))
+print(arr)
+
+#13.convert to list
+print(arr.tolist())
+
+#14. string to character
+arr2 = array.array('u', 'hello')
+arr2.fromunicode('world')
+print(arr2)
+print(arr2.tounicode())
+
+#15.slice
+print(arr[3:8])

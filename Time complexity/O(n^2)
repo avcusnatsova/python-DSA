@@ -1,0 +1,11 @@
+def printloop(n):
+    count = 0
+    for i in range (n):
+        for j in range(n):
+            print(i,j)
+            #to check n^2
+            count = count +1
+    return count
+operations = printloop(9)
+print(operations)
+

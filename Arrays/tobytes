@@ -1,0 +1,11 @@
+from array import array
+
+print("Step 13")
+
+arr = array('i', [1, 2, 3, 4, 5])  # Original array
+strTemp = arr.tobytes()           # Convert to bytes
+print(strTemp)
+
+ints = array('i')                 # Create a new array of the same type
+ints.frombytes(strTemp)          # Reconstruct the array from bytes
+print(ints)

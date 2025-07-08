@@ -1,0 +1,46 @@
+#numbers
+'''list = [1,2,3,4,5]
+newlist = [i*2 for i in list]
+print(list)
+print(newlist)
+
+#string
+language = 'python'
+newl = [letter for letter in language]
+print(language)
+print(newl)
+
+#with condition
+list = [-1,-2,-3,-4,-5,6,7,8,9,11]
+newlist = [(i*i) for i in list if i <0]
+print(list)
+print(newlist)
+
+#complex comprehensions
+
+sentence ='my name is cusnat sova'
+
+def is_consonant(letter):
+    vowels ='aeiou'
+    return letter.isalpha() and letter.lower() not in vowels
+consonants = [i for i in sentence if is_consonant(i)]
+print(consonants)'''
+
+#with condition in front
+'''list = [-1,-2,-3,-4,-5,6,7,8,9,11]
+newlist = [i if i > 0 else 'negative' for i in list]
+print(list)
+print(newlist)'''
+
+#with function
+
+def get_number(number):
+    if number > 0:
+        return number
+    else:
+        return 'negative'
+    
+list = [-1,-2,-3,-4,-5,6,7,8,9,11]
+newlist = [get_number(number) for number in list]
+print(list)
+print(newlist)

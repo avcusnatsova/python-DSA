@@ -1,0 +1,35 @@
+list = [1,2,3,4,5,6,7,8,9,10]
+print(list)
+
+'''#slicing
+print(list[0:3])
+print(list[:5])
+print(list[3:])
+print(list[:])
+
+#updating with slicing
+list[2:4] = [33,44]
+print(list)
+
+#step
+print(list[2:9:2])
+
+#reversing
+print(list[::-1])'''
+
+'''#pop()
+
+list.pop(5)
+print(list)
+#default pop deletes last element
+list.pop()
+print(list)'''
+
+'''#del
+del list[2:6]
+print(list)'''
+
+#remove()
+list.remove(5)
+print(list)
+

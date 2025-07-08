@@ -1,0 +1,40 @@
+#concatenation "+"
+'''lista = [1,2,3,4]
+listb = [5,6,7,8]
+listc = lista + listb
+print(listc)
+
+#repeater "*"
+list = [5]
+print(list * 10)'''
+
+'''list = [1,2,3,4,5,6,7,8,9]
+print(len(list))
+print(max(list))
+print(min(list))
+print(sum(list))
+print(sum(list)//len(list))'''
+
+#convert this into list
+'''total = 0
+count = 0
+while(True):
+    inp = input("enter a number")
+    if inp == 'done': break
+    value = float(inp)
+    total = total + value
+    count = count + 1
+    average = total / count
+print("average", average)'''
+
+#converting
+list = list()
+while(True):
+    inp = input("enter a number ")
+    if inp == 'done': break
+    value = float(inp)
+    list.append(value)
+    average = sum(list)/ len(list)
+print(list)
+print("average", average)   
+
