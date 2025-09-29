@@ -101,3 +101,29 @@ s.push(3)
 print(s.min())
 s.pop()
 print(s.min())
+
+def is_balanced(expression):
+    stack = []
+    # Dictionary to match closing to opening brackets
+    pairs = {')': '(', '}': '{', ']': '['}
+
+    for char in expression:
+        # If it's an opening bracket → push to stack
+        if char in "({[":
+            stack.append(char)
+        # If it's a closing bracket → check stack
+        elif char in ")}]":
+            if not stack or stack[-1] != pairs[char]:
+                return False
+            stack.pop()
+
+    # If stack is empty, all brackets matched
+    return len(stack) == 0
+
+print(is_balanced("()"))        
+print(is_balanced("([]){}"))    
+print(is_balanced("([)]"))      
+print(is_balanced("{[()]}"))    
+print(is_balanced("{[(])}"))    
+print(is_balanced("((()))"))    
+print(is_balanced("(()"))
