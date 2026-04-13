@@ -74,7 +74,7 @@ python filename.py
 
 ### Clone the Repo
 ```bash
-git clone https://github.com/avcusnatsova/PythonDSA.git
+git clone https://github.com/avcusnatsova/Python-DSA.git
 cd PythonDSA
 ```
 
