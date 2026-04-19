@@ -1,0 +1,9 @@
+class Solution(object):
+    def findShortestSubArray(self, nums):
+        c = {}
+        for i, n in enumerate(nums):
+            if n in c : c [n].append(i)
+            else: c[n] = [i]
+        m = max([len(i)for i in c.values()])
+        return min([i[-1] -i [0] for i in c.values() if len(i) ==  m]) + 1
+        
