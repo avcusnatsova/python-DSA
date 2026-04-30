@@ -1,6 +1,6 @@
 # 🐍 Python DSA
 
-A self-practice repository covering **Data Structures and Algorithms** implemented from scratch in Python — built to strengthen problem-solving skills and deepen understanding of core CS concepts.
+A self-practice repository covering **Data Structures and Algorithms** implemented from scratch in Python — built to strengthen problem solving skills and deepen understanding of core CS concepts.
 
 ---
 
