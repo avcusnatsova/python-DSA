@@ -4,6 +4,7 @@ class graph:
         self.graph = []
         self.nodes = []
 
+    
     def addedge(self, s,d,w):
         self.graph.append([s,d,w])
     def addnode(self,value):
