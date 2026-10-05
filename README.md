@@ -1,99 +1,145 @@
-# 🐍 Python DSA
+# Python DSA
 
-A self-practice repository covering **Data Structures and Algorithms** implemented from scratch in Python — built to strengthen problem solving skills and deepen understanding of core CS concepts.
+A structured collection of **Data Structures and Algorithms implemented in Python**, developed through self-practice to strengthen problem-solving skills, algorithmic thinking, and understanding of core Computer Science concepts.
+
+The repository covers fundamental data structures, algorithmic techniques, complexity analysis, and common patterns used in technical interviews.
 
 ---
 
-## 📁 Repository Structure
+## Topics Covered
 
+### Data Structures
+
+* Arrays & Lists
+* Tuples
+* Dictionaries & Hashing
+* Singly Linked Lists
+* Doubly Linked Lists
+* Circular Linked Lists
+* Stacks
+* Queues & Deques
+* Binary Trees
+* Binary Search Trees
+* Tries
+* Graphs
+
+### Algorithms
+
+* Linear Search
+* Binary Search
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Recursion
+* Divide & Conquer
+* Greedy Algorithms
+* Dynamic Programming
+* Breadth-First Search (BFS)
+* Depth-First Search (DFS)
+
+### Problem-Solving Concepts
+
+* Time Complexity
+* Space Complexity
+* Algorithm Analysis
+* Recursion & Backtracking
+* Searching & Sorting
+* Traversal Techniques
+* Optimization Techniques
+* Interview-Oriented Problem Solving
+
+---
+
+## Repository Structure
+
+```text
+Python-DSA/
+│
+├── Arrays/
+├── Lists/
+├── Tuples/
+├── Dictionary/
+│
+├── Singly Linked List/
+├── Doubly Linked List/
+├── Circular Singly Linked List/
+├── Circular Doubly Linked List/
+│
+├── Stack/
+├── Queue/
+│
+├── Searching Algorithms/
+├── Sorting Algorithms/
+├── Recursion/
+├── Divide and Conquer/
+│
+├── Greedy Algorithm/
+├── Dynamic Programming/
+├── Graphs/
+├── Tree/
+│
+├── Time Complexity/
+└── Projects/
 ```
-PythonDSA/
-│
-├── Arrays/                        # Array operations and problems
-├── Lists/                         # Python list-based problems
-├── Tuples/                        # Tuple usage and practice
-├── Dictionary/                    # HashMap / dictionary problems
-│
-├── Singly Linked List/            # SLL implementation
-├── Doubly Linked List/            # DLL implementation
-├── Circular Singly Linked List/   # CSLL implementation
-├── Circular Doubly Linked List/   # CDLL implementation
-│
-├── Stack/                         # Stack using arrays and linked list
-├── Queue/                         # Queue, deque implementations
-│
-├── Searching Algorithms/          # Linear search, binary search
-├── Sorting Algorithms/            # Bubble, merge, quick sort, etc.
-├── Recursion/                     # Recursive problem solving
-├── Divide and Conquer/            # Merge sort, binary search, etc.
-│
-├── Greedy Algorithm/              # Greedy approach problems
-├── Dynamic Programming/           # Memoization, tabulation
-│
-├── Graphs/                        # BFS, DFS, graph representations
-├── Tree/                          # Binary trees, BST, Trie, Hashing
-│
-├── Time Complexity/               # Big-O analysis and examples
-└── Projects/                      # Mini projects using DSA concepts
-```
 
 ---
 
-## 🚀 Topics Covered
+## Learning Approach
 
-### 🔹 Data Structures
-| Category | Topics |
-|---|---|
-| Linear | Arrays, Lists, Tuples, Dictionary |
-| Linked Lists | Singly, Doubly, Circular Singly, Circular Doubly |
-| Stack & Queue | Stack, Queue, Deque |
-| Non-Linear | Trees, Graphs, Trie, Hashing |
+This repository was developed through **hands-on implementation and self-practice** rather than simply studying theoretical concepts.
 
-### 🔹 Algorithms
-| Category | Topics |
-|---|---|
-| Searching | Linear Search, Binary Search |
-| Sorting | Bubble, Selection, Insertion, Merge, Quick Sort |
-| Recursion | Factorial, Fibonacci, Tower of Hanoi |
-| Divide & Conquer | Merge Sort, Binary Search |
-| Greedy | Activity Selection, Fractional Knapsack |
-| Dynamic Programming | Memoization, Tabulation, Classic DP problems |
-| Graph Algorithms | BFS, DFS |
+The goal is to understand:
+
+* How data structures work internally
+* How algorithms operate step by step
+* When to choose one approach over another
+* How to analyze time and space complexity
+* How to improve solutions for efficiency
 
 ---
 
-## 🛠️ How to Run
+## Running the Programs
 
 ### Prerequisites
-- Python 3.x installed
+
+* Python 3.x
 
 ### Run a Program
+
 ```bash
 python filename.py
 ```
 
-### Clone the Repo
+### Clone the Repository
+
 ```bash
-git clone https://github.com/avcusnatsova/Python-DSA.git
-cd PythonDSA
+git clone <repository-url>
+cd Python-DSA
 ```
 
----
-
-## 📌 About
-
-This repository is entirely **self-practice** — every file was written independently to learn and implement DSA concepts using Python. No course assignments, just hands-on coding.
+Open any directory and run the required Python program.
 
 ---
 
-## 👤 Author
+## Purpose
+
+This repository represents my progression in **Data Structures and Algorithms using Python** and serves as a reference for continuous learning and technical interview preparation.
+
+The concepts practiced here also provide a foundation for solving competitive programming and coding interview problems.
+
+---
+
+## Author
 
 **A V Cusnat Sova**
 B.E. Computer Science Engineering
-GitHub: [@avcusnatsova](https://github.com/avcusnatsova)
+
+GitHub: `avcusnatsova`
 
 ---
 
-## 📄 License
+## License
 
-Open for learning and reference purposes.
+This repository is intended for **learning, practice, and educational reference**.
